@@ -24,11 +24,24 @@ body{
 	background: #34C0AD;
 	padding:10px;
 }
+.section-left:after{
+  content: '';
+  background: url(../images/1.jpg);
+  position: absolute;
+  width: 50.5%;
+  height: 92%;
+  left: 0;
+  top: 0;
+  opacity: .05;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .section-left form{
 	margin-top: 10%;
 	margin-left: 25%;
 	margin-bottom: 25%;
 	position: relative;
+  z-index: 99;
 }
 .field h2{
 	position: absolute;
