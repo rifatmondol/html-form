@@ -1,0 +1,142 @@
+/*
+==========================
+Template name: HTML form
+Author name: Rifat Mondol
+Description: It is a html form template with custom css
+Version: v1.0
+Author URI: https://github.com/rifatmondol/rifat2
+==========================
+*/
+
+body{
+	margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+.main-section{
+	display: flex;
+}
+
+		/* left section css */
+.section-left,.section-right{
+	width: 50%;
+}
+.section-left{
+	background: #34C0AD;
+	padding:10px;
+}
+.section-left form{
+	margin-top: 10%;
+	margin-left: 25%;
+	margin-bottom: 25%;
+	position: relative;
+}
+.field h2{
+	position: absolute;
+  color: #9CE6DA;
+  font-size: 40px;
+  letter-spacing: 3px;
+  transform: rotate(-90deg);
+  left: -33%;
+  top: 30%;
+}
+.field input{
+	width: 38%;
+  height: 30px;
+  margin: 10px 10px;
+  padding: 10px;
+  border-radius: 3px; 
+}
+input:focus,textarea:focus,button:focus{
+	outline: none;
+}
+textarea{
+  margin-left: 2%;
+  width: 81.2%;
+  height: 90px;
+  padding: 18px;
+  margin-top: 10px;
+  border-radius: 3px;
+}
+input, textarea{
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+	color: #B5B5B5;
+	font-weight: 300;
+	border: none;
+}
+input::placeholder, textarea::placeholder{
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+	color: #B5B5B5;
+	font-weight: 500;
+}
+.field button{
+	border: none;
+  background: #fff;
+  color: #34C0AD;
+  padding: 15px 20px;
+  border-radius: 5px;
+  margin-left: 2%;
+  margin-top: 5%;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* right section css */
+.section-right-main{
+	margin-left: 15%;
+	margin-top: 10%;
+}
+.section-right-main h3{
+	color: #474747;
+  font-size: 27px;
+  font-weight: 400;
+}
+.section-right-main ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none; 
+}
+.section-right-main ul .icon {
+  width: 15px;
+  height: 15px;
+ 	background: #34C0AD;
+  color: #fff;
+  border-radius: 2px;
+  position: absolute;
+}
+.icon:after{
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 5px solid #32D6BE;
+  bottom: -4px;
+}
+.fa-check{
+  font-size: 9px;
+  color: #fff;
+  position: absolute;
+  left: 3px;
+  top: 4px;
+}
+.section-right-main ul div{
+	padding-left: 15px;
+	margin: 20px; 
+}
+.section-right-main .more-btn{
+  border: none;
+  background: #34C0AD;
+  color: #fff;
+  padding: 15px 25px;
+  border-radius: 5px;
+  margin-top: 5%;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
